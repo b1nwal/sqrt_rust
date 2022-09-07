@@ -7,6 +7,7 @@ radicand / guess and guess, so to find it you can just average the the two value
 values and try it again. If that is not correct, do it again, etc. Eventually, you will find the correct answer, where radicand / guess = guess. 
 
 I'm not a super eloquent teacher, so if this did not make sense please read over [Methods of computing square roots - Wikipedia](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method)
+
 =======
 ## Known issues
 Some inputs yield relatively imprecise results (e.x. 23,) because those numbers result in infinite loops, so the program will just spit out what it currently has in order to save itself.
