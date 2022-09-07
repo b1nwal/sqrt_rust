@@ -5,3 +5,5 @@ the square root is. If you are correct, than radicand / guess should equal the g
 be larger than the answer, or if you are too high, radicand / guess will be smaller than the answer. Regardless, this means that the answer must exist somewhere between
 radicand / guess and guess, so to find it you can just average the the two values to get the middle point, and try that number. If that is not correct, average the
 values and try it again. If that is not correct, do it again, etc. Eventually, you will find the correct answer, where radicand / guess = guess. 
+
+I'm not a super eloquent teacher, so if this did not make sense please read over [Methods of computing square roots - Wikipedia](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method)
