@@ -10,7 +10,8 @@ fn main() {
             break;
         } else {
             if guess == prevguess {
-                panic!("FATAL: Hit infinite loop.");
+                println!("Answer is {}",guess);
+                break
             }
             prevguess = guess;
             guess = (guess+radicand/guess)/2.0;
@@ -29,7 +30,7 @@ fn get_input() -> f32 {
         .trim_end()
         .to_string();
     let a: f32 = match x.parse() {
-        Ok(b) => b,
+        Ok(b) => if b > 0.0 {b}else{println!("Invalid Number. Try Again.");get_input()},
         Err(_) => {println!("Invalid Number. Try Again.");get_input()}
     };
     return a;
